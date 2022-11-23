@@ -5,7 +5,7 @@
 	align-items: center;
 	width: 95vw;
 	height: 95vh;
-	margin: 2em 2em 0 2em;
+
 
 	h1 {
 		margin: 0;
@@ -16,12 +16,13 @@
 	  display: flex;
 	  display: flex;
 	  width: 95vw;
-	  height: 95vh;
 	  justify-content: center;
 	  align-items: flex-start;
 	
 	  .video-player {
 		width: 60vw;
+		height: 90vh;
+        min-height: 90vh;
 		background-color: #fff;
 		display: flex;
 		flex-direction: column;
@@ -30,7 +31,6 @@
 	
 	  .list {
 		margin-left: 1.5em;
-		flex: 1;
 	  }
 	
 	  @media (max-width: 800px) {

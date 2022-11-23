@@ -1,0 +1,25 @@
+.video-list {
+width: auto;
+
+background-color: #FFFFFF;
+overflow: scroll;
+height: 90vh;
+min-height: 90vh;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .title {
+    margin: 0 1em 0 0;
+  }
+
+  .list, .list-item {
+    width: 100%;
+  }
+
+  .list-item.active {
+    background-color: #6B47ED;
+  }
+}
